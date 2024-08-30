@@ -1,0 +1,7 @@
+/* custom.css */
+
+.table-cell-ellipsis {
+    white-space: nowrap; /* Prevents text from wrapping to a new line */
+    overflow: hidden; /* Ensures that content that is too long is hidden */
+    text-overflow: ellipsis; /* Adds the ellipsis (...) to overflowing text */
+}
